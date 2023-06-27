@@ -3,6 +3,7 @@
     <h3>Menus</h3>
     <v-card class="mt-5 mb-8">
       <v-card-text>
+        <!-- v-toolbar -->
         <v-app-bar
           color="deep-purple accent-4"
           dense
