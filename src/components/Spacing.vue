@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h3>Spacing</h3>
+    <v-row>
+       <h3 class="pa-9 ma-auto">Spacing</h3>
+    </v-row>
     <v-card class="mt-5 mb-8">
       <v-card-text>
         <v-container
