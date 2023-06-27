@@ -5,6 +5,12 @@
       <v-card-text>
         <v-row>
           <v-col cols="12">
+            <!-- v-ripple gives a cool ripple effect on click -->
+            <button  v-ripple class="elevation-2 py-2 px-4">
+              Custom Button
+            </button>
+          </v-col>
+          <v-col cols="12">
               <v-btn small>Small button</v-btn>
             </v-col>
                <v-col cols="12">
@@ -29,8 +35,11 @@
             </v-btn>
             </v-col>
             <v-col cols="12">
-              <v-btn>Normal</v-btn>
+              <v-btn class="red white--text">Red/White</v-btn>
             </v-col>
+            <v-col cols="12">
+                <v-btn>Normal</v-btn>
+              </v-col>
         </v-row>
         <v-row>
           <v-col cols="12">
