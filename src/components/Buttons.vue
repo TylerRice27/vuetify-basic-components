@@ -5,8 +5,32 @@
       <v-card-text>
         <v-row>
           <v-col cols="12">
-            <v-btn>Normal</v-btn>
+              <v-btn small>Small button</v-btn>
+            </v-col>
+               <v-col cols="12">
+                <v-btn large>Large button</v-btn>
+              </v-col>
+                 <v-col cols="12">
+                <v-btn large text>Text Button/Hover over me</v-btn>
+              </v-col>
+                 <v-col cols="12">
+                <v-btn large outlined >Large Outlined Button</v-btn>
+              </v-col>
+                 <v-col cols="12">
+                <v-btn rounded depressed>Rounded/Depressed/No Eval</v-btn>
+              </v-col>
+          <v-col cols="12">
+            <v-btn block>Block</v-btn>
           </v-col>
+          <v-col cols="12">
+            <!-- You can wrap a button around an Icon -->
+            <v-btn>
+              <v-icon>mdi-pencil</v-icon>
+            </v-btn>
+            </v-col>
+            <v-col cols="12">
+              <v-btn>Normal</v-btn>
+            </v-col>
         </v-row>
         <v-row>
           <v-col cols="12">
